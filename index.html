@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо сертифікацій | Кібербезпека</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #111827;
+            --accent-color: #10b981;
+            --text-color: #f3f4f6;
+            --text-muted: #9ca3af;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1f2937, #111827);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid var(--accent-color);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: var(--accent-color);
+        }
+        p.subtitle {
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            border-bottom: 1px solid #374151;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            color: var(--text-color);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid #374151;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.2rem;
+        }
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 16px;
+            background-color: var(--accent-color);
+            color: #0b0f19;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background-color: #059669;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-muted);
+            border-top: 1px solid #374151;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Портфоліо сертифікацій</h1>
+        <p class="subtitle">Звітність за 5-й семестр | Спеціальність «Кібербезпека»</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Cisco Networking Academy</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Курс Cisco №1</h3>
+                    <p>Опис пройденого курсу або базовий бейдж з платформи.</p>
+                    <a href="ПОСИЛАННЯ_НА_СЕРТИФІКАТ_CISCO" target="_blank" class="btn">Переглянути сертифікат</a>
+                </div>
+                <!-- Додай інші картки Cisco за аналогією -->
+            </div>
+        </section>
+
+        <section>
+            <h2>HTB Academy (Модулі 1-6)</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Module 1</h3>
+                    <p>Пройдений практичний модуль на платформі Hack The Box.</p>
+                    <a href="ПОСИЛАННЯ_НА_ПРОФІЛЬ_АБО_СЕРТИФІКАТ_HTB" target="_blank" class="btn">Переглянути бейдж</a>
+                </div>
+                <div class="card">
+                    <h3>Module 2</h3>
+                    <p>Пройдений практичний модуль на платформі Hack The Box.</p>
+                    <a href="ПОСИЛАННЯ_НА_ПРОФІЛЬ_АБО_СЕРТИФІКАТ_HTB" target="_blank" class="btn">Переглянути бейдж</a>
+                </div>
+                <div class="card">
+                    <h3>Module 3</h3>
+                    <p>Пройдений практичний модуль на платформі Hack The Box.</p>
+                    <a href="ПОСИЛАННЯ_НА_ПРОФІЛЬ_АБО_СЕРТИФІКАТ_HTB" target="_blank" class="btn">Переглянути бейдж</a>
+                </div>
+                <div class="card">
+                    <h3>Module 4</h3>
+                    <p>Пройдений практичний модуль на платформі Hack The Box.</p>
+                    <a href="ПОСИЛАННЯ_НА_ПРОФІЛЬ_АБО_СЕРТИФІКАТ_HTB" target="_blank" class="btn">Переглянути бейдж</a>
+                </div>
+                <div class="card">
+                    <h3>Module 5</h3>
+                    <p>Пройдений практичний модуль на платформі Hack The Box.</p>
+                    <a href="ПОСИЛАННЯ_НА_ПРОФІЛЬ_АБО_СЕРТИФІКАТ_HTB" target="_blank" class="btn">Переглянути бейдж</a>
+                </div>
+                <div class="card">
+                    <h3>Module 6</h3>
+                    <p>Пройдений практичний модуль на платформі Hack The Box.</p>
+                    <a href="ПОСИЛАННЯ_НА_ПРОФІЛЬ_АБО_СЕРТИФІКАТ_HTB" target="_blank" class="btn">Переглянути бейдж</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 | Звіт з обов'язкової сертифікації</p>
+    </body>
+</html>
